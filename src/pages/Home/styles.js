@@ -112,6 +112,7 @@ const ProjectContainer = styled.section`
     h2 {
       color: #fff;
       position: relative;
+      font-size: 30px;
 
       :before {
         content: "";
@@ -209,9 +210,14 @@ const SkillContainer = styled.section`
     justify-content: space-between;
     align-items: center;
 
+    i {
+      margin-right: 15px;
+    }
+
     h2 {
       color: #fff;
       position: relative;
+      font-size: 30px;
 
       :before {
         content: "";

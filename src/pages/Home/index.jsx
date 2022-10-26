@@ -83,7 +83,10 @@ function Home() {
 
       <ProjectContainer>
         <div className="title">
-          <h2>Projects</h2>
+          <h2>
+            <i className="fa-solid fa-code" />
+            Projects
+          </h2>
           <a href="/projects">~~&gt; View All</a>
         </div>
 
@@ -146,7 +149,10 @@ function Home() {
 
       <SkillContainer>
         <div className="title">
-          <h2>Skills</h2>
+          <h2>
+            <i className="fa-solid fa-code" />
+            Skills
+          </h2>
         </div>
         <div className="skills">
           <div className="animation">
