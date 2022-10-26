@@ -5,6 +5,7 @@ const Container = styled.header`
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 100000;
 
   @media (max-width: 767px) {
     border-bottom: 2px solid #ffffff;
