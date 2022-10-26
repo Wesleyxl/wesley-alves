@@ -200,6 +200,80 @@ const ProjectContainer = styled.section`
   }
 `;
 
+const SkillContainer = styled.section`
+  margin-top: 100px;
+
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      color: #fff;
+      position: relative;
+
+      :before {
+        content: "";
+        position: absolute;
+        width: 150px;
+        height: 3px;
+        background: #fff;
+        bottom: 5px;
+        right: -170px;
+      }
+    }
+  }
+
+  .animation {
+    max-width: 400px;
+  }
+  .skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .box-area {
+      /* display: flex; */
+
+      .top,
+      .bottom {
+        display: flex;
+        margin-bottom: 20px;
+      }
+
+      .box {
+        margin-right: 15px;
+        width: 100%;
+        max-width: 170px;
+        border: 1px solid #fff;
+
+        .title {
+          width: 100%;
+          border-bottom: 1px solid #fff;
+          padding: 10px;
+
+          p {
+            width: 100%;
+            text-align: center;
+          }
+        }
+
+        .description {
+          padding: 10px;
+
+          p {
+            font-size: 16px;
+            opacity: 0.7;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+`;
+
 const AboutContainer = styled.section``;
 
 const ContactContainer = styled.section``;
@@ -210,6 +284,7 @@ export {
   TextArea,
   ImageArea,
   ProjectContainer,
+  SkillContainer,
   AboutContainer,
   ContactContainer,
 };

@@ -7,6 +7,7 @@ import CodeAnimationMobile from "../../assets/code-home.json";
 import Project1 from "../../assets/project1.jpg";
 import Project2 from "../../assets/project2.jpg";
 import Project3 from "../../assets/project3.jpg";
+import CodeSkillAnimation from "../../assets/skill.json";
 import LogoW from "../../assets/W-icon.svg";
 import {
   Container,
@@ -16,13 +17,23 @@ import {
   ProjectContainer,
   AboutContainer,
   ContactContainer,
+  SkillContainer,
 } from "./styles";
 
 function Home() {
-  const lottiesOptions = {
+  const introLottieOption = {
     loop: true,
     autoplay: true,
     animationData: CodeAnimationMobile,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+  const skillLottieOption = {
+    loop: true,
+    autoplay: true,
+    animationData: CodeSkillAnimation,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -65,7 +76,7 @@ function Home() {
 
         <ImageArea>
           <div className="lotties-content">
-            <Lottie options={lottiesOptions} width="100%" height="100%" />
+            <Lottie options={introLottieOption} width="100%" height="100%" />
           </div>
         </ImageArea>
       </Intro>
@@ -132,6 +143,69 @@ function Home() {
           </div>
         </div>
       </ProjectContainer>
+
+      <SkillContainer>
+        <div className="title">
+          <h2>Skills</h2>
+        </div>
+        <div className="skills">
+          <div className="animation">
+            <Lottie options={skillLottieOption} width="100%" height="100%" />
+          </div>
+
+          <div className="box-area">
+            <div className="top">
+              <div className="box">
+                <div className="title">
+                  <p>Languages</p>
+                </div>
+                <div className="description">
+                  <p>PHP, Javascript, Typescript, Python, Nodejs, JAVA</p>
+                </div>
+              </div>
+
+              <div className="box">
+                <div className="title">
+                  <p>Databases</p>
+                </div>
+                <div className="description">
+                  <p>MySQL, PostgreSQL, MongoDB</p>
+                </div>
+              </div>
+
+              <div className="box">
+                <div className="title">
+                  <p>Tools</p>
+                </div>
+                <div className="description">
+                  <p>Git, VsCode, Figma, Linux, Docker, Eslint</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bottom">
+              <div className="box" style={{ border: "none" }} />
+
+              <div className="box">
+                <div className="title">
+                  <p>Others</p>
+                </div>
+                <div className="description">
+                  <p>HTML, CSS, EJS, REST, API, Jest</p>
+                </div>
+              </div>
+              <div className="box">
+                <div className="title">
+                  <p>Frameworks</p>
+                </div>
+                <div className="description">
+                  <p>Laravel, NodeJs, React, React Native, express</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </SkillContainer>
 
       <AboutContainer />
       <ContactContainer />
