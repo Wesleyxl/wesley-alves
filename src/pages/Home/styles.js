@@ -100,4 +100,116 @@ const ImageArea = styled.div`
   }
 `;
 
-export { Container, Intro, TextArea, ImageArea };
+const ProjectContainer = styled.section`
+  width: 100%;
+
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      color: #fff;
+      position: relative;
+
+      :before {
+        content: "";
+        position: absolute;
+        width: 150px;
+        height: 3px;
+        background: #fff;
+        bottom: 5px;
+        right: -170px;
+      }
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+
+      :hover {
+        cursor: pointer;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .projects {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .box {
+      margin: 15px;
+      width: 331px;
+      height: auto;
+      border: 1px solid #ffffff90;
+
+      .img {
+        width: 100%;
+        height: 200px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .tech {
+        width: 100%;
+        height: 30px;
+        border-bottom: 1px solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+          margin: 0 15px;
+        }
+      }
+      .description {
+        padding: 15px;
+
+        h3 {
+          margin-bottom: 20px;
+        }
+
+        p {
+          margin-bottom: 20px;
+        }
+
+        a {
+          padding: 5px 15px;
+          border: 1px solid #fff;
+          margin-right: 30px;
+          color: #fff;
+          text-decoration: none;
+          font-size: 16px;
+
+          :hover {
+            background: #fff;
+            color: #282c33;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+`;
+
+const AboutContainer = styled.section``;
+
+const ContactContainer = styled.section``;
+
+export {
+  Container,
+  Intro,
+  TextArea,
+  ImageArea,
+  ProjectContainer,
+  AboutContainer,
+  ContactContainer,
+};
