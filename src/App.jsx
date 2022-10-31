@@ -1,9 +1,10 @@
-import React from 'react';
-import { BrowserRouter, Routes as Switch, Route } from 'react-router-dom'
+import React from "react";
+import { BrowserRouter, Routes as Switch, Route } from "react-router-dom";
 
-import Header from './layouts/Header';
-import Home from './pages/Home'
-import GlobalStyles from './styles/GlobalStyles';
+import Footer from "./layouts/Footer";
+import Header from "./layouts/Header";
+import Home from "./pages/Home";
+import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route path="/" element={<Home />} />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }

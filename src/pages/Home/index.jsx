@@ -232,10 +232,10 @@ function Home() {
         </div>
         <div className="about">
           <div className="left">
-            <p>Hello, I'm, Wesley</p>
+            <p>Hello, I&apos;m, Wesley</p>
             <p>
-              I'm a sel-taught developer. I can develop responsive websites and
-              application mobile from scratch, and raise them into modern
+              I&apos;m a sel-taught developer. I can develop responsive websites
+              and application mobile from scratch, and raise them into modern
               user-friendly web experience.
             </p>
             <p>
