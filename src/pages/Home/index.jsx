@@ -3,6 +3,7 @@ import Lottie from "react-lottie";
 import ReactTyped from "react-typed";
 
 import LogoA from "../../assets/A-icon.svg";
+import AboutAnimation from "../../assets/about.json";
 import CodeAnimationMobile from "../../assets/code-home.json";
 import Project1 from "../../assets/project1.jpg";
 import Project2 from "../../assets/project2.jpg";
@@ -34,6 +35,15 @@ function Home() {
     loop: true,
     autoplay: true,
     animationData: CodeSkillAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+  const aboutLottieOption = {
+    loop: true,
+    autoplay: true,
+    animationData: AboutAnimation,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -213,7 +223,42 @@ function Home() {
         </div>
       </SkillContainer>
 
-      <AboutContainer />
+      <AboutContainer>
+        <div className="title">
+          <h2>
+            <i className="fa-solid fa-code" />
+            About Me
+          </h2>
+        </div>
+        <div className="about">
+          <div className="left">
+            <p>Hello, I'm, Wesley</p>
+            <p>
+              I'm a sel-taught developer. I can develop responsive websites and
+              application mobile from scratch, and raise them into modern
+              user-friendly web experience.
+            </p>
+            <p>
+              Transform my creativity and knowledge into a website has been my
+              passion for over year, I have been helping various clients
+              stablish their presence online. I always strive to learn about the
+              newest technologies and Frameworks.
+            </p>
+
+            <div className="btn-area">
+              <a href="/about" alt="about" title="about">
+                Read more
+              </a>
+            </div>
+          </div>
+          <div className="right">
+            <div className="animation">
+              <Lottie options={aboutLottieOption} width="100%" height="100%" />
+            </div>
+          </div>
+        </div>
+      </AboutContainer>
+
       <ContactContainer />
     </Container>
   );

@@ -280,7 +280,70 @@ const SkillContainer = styled.section`
   }
 `;
 
-const AboutContainer = styled.section``;
+const AboutContainer = styled.section`
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    i {
+      margin-right: 15px;
+    }
+
+    h2 {
+      color: #fff;
+      position: relative;
+      font-size: 30px;
+
+      :before {
+        content: "";
+        position: absolute;
+        width: 150px;
+        height: 3px;
+        background: #fff;
+        bottom: 5px;
+        right: -170px;
+      }
+    }
+  }
+
+  .about {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+      max-width: 550px;
+      margin-top: 40px;
+
+      p {
+        margin-bottom: 20px;
+      }
+
+      .btn-area {
+        margin-top: 60px;
+
+        a {
+          border: 1px solid #fff;
+          text-decoration: none;
+          text-align: center;
+          padding: 7px 31px;
+          font-size: 22px;
+          color: #fff;
+
+          :hover {
+            background: #fff;
+            color: #000;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+`;
 
 const ContactContainer = styled.section``;
 
