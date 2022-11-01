@@ -72,8 +72,8 @@ function Home() {
                 "Desenvolvedor Mobile",
                 "Web Designer",
               ]}
-              typeSpeed={80}
-              backSpeed={40}
+              typeSpeed={5}
+              backSpeed={2}
               loop
             />
           </h3>
@@ -259,7 +259,72 @@ function Home() {
         </div>
       </AboutContainer>
 
-      <ContactContainer />
+      <ContactContainer>
+        <div className="title">
+          <h2>
+            <i className="fa-solid fa-code" />
+            Contact
+          </h2>
+        </div>
+        <div className="contact">
+          <div className="left">
+            <p>
+              I&apos;m interested in freelance opportunities. However, if you
+              have other request or question, don&apos;t hesitate to contact me
+            </p>
+            <div className="form">
+              <div className="group">
+                <div className="input-area" style={{ marginRight: 15 }}>
+                  <input type="text" placeholder="Type your name" />
+                </div>
+                <div className="input-area">
+                  <input type="text" placeholder="Type your email" />
+                </div>
+              </div>
+              <div className="input-area">
+                <input type="text" placeholder="Type your subject" />
+              </div>
+              <div className="input-area">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="type your text"
+                />
+              </div>
+
+              <button type="button">Send</button>
+            </div>
+          </div>
+          <div className="right">
+            <div className="box">
+              <p>Message me here</p>
+              <ul>
+                <li>
+                  <a href="/">
+                    <i className="fa-brands fa-instagram" />
+                    @Wesleyxll
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/">
+                    <i className="fa-brands fa-linkedin" />
+                    Wesley Alves
+                  </a>
+                </li>
+                <li>
+                  <a href="/">
+                    <i className="fa-regular fa-envelope" />
+                    contato@wesley-alves.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </ContactContainer>
     </Container>
   );
 }

@@ -109,6 +109,10 @@ const ProjectContainer = styled.section`
     justify-content: space-between;
     align-items: center;
 
+    i {
+      margin-right: 15px;
+    }
+
     h2 {
       color: #fff;
       position: relative;
@@ -282,6 +286,7 @@ const SkillContainer = styled.section`
 
 const AboutContainer = styled.section`
   .title {
+    margin: 50px 0 -55px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -317,7 +322,6 @@ const AboutContainer = styled.section`
 
     .left {
       max-width: 550px;
-      margin-top: 40px;
 
       p {
         margin-bottom: 20px;
@@ -345,7 +349,130 @@ const AboutContainer = styled.section`
   }
 `;
 
-const ContactContainer = styled.section``;
+const ContactContainer = styled.section`
+  margin-top: 50px;
+
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    i {
+      margin-right: 15px;
+    }
+
+    h2 {
+      color: #fff;
+      position: relative;
+      font-size: 30px;
+
+      :before {
+        content: "";
+        position: absolute;
+        width: 150px;
+        height: 3px;
+        background: #fff;
+        bottom: 5px;
+        right: -170px;
+      }
+    }
+  }
+
+  .contact {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .left {
+      max-width: 550px;
+
+      p {
+        margin-bottom: 20px;
+      }
+
+      .form {
+        width: 100%;
+        text-align: right;
+
+        .group {
+          width: 100%;
+          display: flex;
+
+          .input-area {
+            flex: 1;
+          }
+        }
+
+        input {
+          width: 100%;
+          height: 40px;
+          margin: 10px 0;
+          padding: 0 15px;
+          border: 1px solid #aaaaaa;
+          background: none;
+          color: #fff;
+        }
+        textarea {
+          width: 100%;
+          padding: 15px;
+          border: 1px solid #aaaaaa;
+          background: none;
+          color: #fff;
+        }
+
+        button {
+          margin-top: 20px;
+          width: 100px;
+          height: 40px;
+          border: 1px solid #aaaaaa;
+          background: none;
+          align-items: right;
+          color: #fff;
+          font-size: 22px;
+
+          :hover {
+            font-weight: bold;
+            color: #000;
+            background: #fff;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .right {
+      .box {
+        border: 1px solid #fff;
+        padding: 15px;
+
+        ul {
+          margin-top: 20px;
+        }
+        li {
+          list-style: none;
+          margin: 10px 0;
+
+          a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+
+            i {
+              margin-right: 10px;
+            }
+
+            :hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+`;
 
 export {
   Container,
