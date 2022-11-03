@@ -114,7 +114,7 @@ function Home() {
             <i className="fa-solid fa-code" />
             Projects
           </h2>
-          <a href="/projects">~~&gt; View All</a>
+          <a href="/#projects">~~&gt; View All</a>
         </div>
 
         <div className="projects">
