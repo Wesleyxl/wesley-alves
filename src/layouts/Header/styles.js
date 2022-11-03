@@ -83,7 +83,7 @@ const DesktopMenu = styled.div`
         }
       }
 
-      .active {
+      /* .active {
         font-weight: bold;
         :before {
           transform: scale3d(1, 1, 1);
@@ -91,9 +91,9 @@ const DesktopMenu = styled.div`
         :after {
           transform: scale3d(1, 1, 1);
         }
-      }
+      } */
 
-      .inactive {
+      /* .inactive {
         font-weight: normal;
 
         :hover {
@@ -104,7 +104,7 @@ const DesktopMenu = styled.div`
             transform: scale3d(0, 1, 1);
           }
         }
-      }
+      } */
 
       select {
         margin-left: 30px;
