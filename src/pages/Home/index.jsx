@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Lottie from "react-lottie";
 import ReactTyped from "react-typed";
 
@@ -10,6 +10,7 @@ import Project2 from "../../assets/project2.jpg";
 import Project3 from "../../assets/project3.jpg";
 import CodeSkillAnimation from "../../assets/skill.json";
 import LogoW from "../../assets/W-icon.svg";
+// import Language from "../../service/language.json";
 import {
   Container,
   TextArea,
@@ -48,6 +49,22 @@ function Home() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [text, setText] = useState("");
+
+  const handleSubmit = async () => {
+    const response = "ok";
+
+    return response;
+  };
+
+  // const [lang, setLang] = useState(Language.ptBr);
+  // const changeLanguage = (e) => {
+  //   setLang(e.target.value);
+  // };
 
   return (
     <Container>
@@ -200,7 +217,7 @@ function Home() {
             </div>
 
             <div className="bottom">
-              <div className="box" style={{ border: "none" }} />
+              <div className="box noneindex" style={{ border: "none" }} />
 
               <div className="box">
                 <div className="title">
@@ -275,26 +292,50 @@ function Home() {
             <div className="form">
               <div className="group">
                 <div className="input-area" style={{ marginRight: 15 }}>
-                  <input type="text" placeholder="Type your name" />
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    onChange={(e) => setName(e.target.value)}
+                    value={name}
+                    placeholder="Type your name"
+                  />
                 </div>
                 <div className="input-area">
-                  <input type="text" placeholder="Type your email" />
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    onChange={(e) => setEmail(e.target.value)}
+                    value={email}
+                    placeholder="Type your email"
+                  />
                 </div>
               </div>
               <div className="input-area">
-                <input type="text" placeholder="Type your subject" />
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  onChange={(e) => setSubject(e.target.value)}
+                  value={subject}
+                  placeholder="Type your subject"
+                />
               </div>
               <div className="input-area">
                 <textarea
-                  name=""
-                  id=""
-                  cols="30"
+                  name="text"
+                  id="text"
                   rows="10"
+                  onChange={(e) => setText(e.target.value)}
+                  value={text}
                   placeholder="type your text"
                 />
               </div>
 
-              <button type="button">Send</button>
+              <button type="button" onClick={handleSubmit}>
+                Send
+              </button>
             </div>
           </div>
           <div className="right">

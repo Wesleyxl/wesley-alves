@@ -1,0 +1,41 @@
+{
+  "ptBr": {
+    "header": {
+      "Home": "Início",
+      "Project": "Projetos",
+      "About": "Sobre",
+      "Contact": "Contato"
+    },
+    "intro": "Crio sites e aplicativos mobile responsivos, utilizando as tecnologias mais modernas e sofisticadas da atualidade, onde as tecnologias encontram a criatividade.",
+    "title_Project": "Projetos",
+    "title_Skills": "Habilidades",
+    "title_About": "Sobre",
+    "about": {
+      "intro": "Olá, eu sou, Wesley",
+      "part_1": "Sou um desenvolvedor autodidata. Posso desenvolver sites responsivos e aplicativos móveis a partir do zero e transformá-los em uma experiência web moderna e fácil de usar.",
+      "part_2": "Transformar minha criatividade e conhecimento em um site tem sido minha paixão há mais de um ano, tenho ajudado diversos clientes a estabelecerem sua presença online. Eu sempre me esforço para aprender sobre as mais novas tecnologias e Frameworks."
+    },
+    "title_contact": "Contato",
+    "contact_intro": "Estou interessado em oportunidades freelance. No entanto, se você tiver outro pedido ou pergunta, não hesite em entrar em contato comigo"
+  },
+
+  "en": {
+    "header": {
+      "Home": "Home",
+      "Project": "Project",
+      "About": "About",
+      "Contact": "Contact"
+    },
+    "intro": "I create responsive websites and mobile apps, using the most modern and sophisticated technologies today, where technologies meet creativity.",
+    "title_Project": "Projects",
+    "title_Skills": "Skills",
+    "title_About": "About Me",
+    "about": {
+      "intro": "Hello, I'm, Wesley",
+      "part_1": "I'm a sel-taught developer. I can develop responsive websites and application mobile from scratch, and raise them into modern user-friendly web experience.",
+      "part_2": "Transform my creativity and knowledge into a website has been my passion for over year, I have been helping various clients stablish their presence online. I always strive to learn about the newest technologies and Frameworks."
+    },
+    "title_contact": "Contact",
+    "contact_intro": "I'm interested in freelance opportunities. However, if you have other request or question, don't hesitate to contact me"
+  }
+}

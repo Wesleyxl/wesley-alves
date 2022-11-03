@@ -244,6 +244,11 @@ const SkillContainer = styled.section`
     justify-content: space-between;
     align-items: center;
 
+    @media (max-width: 900px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     .box-area {
       /* display: flex; */
 
@@ -251,6 +256,15 @@ const SkillContainer = styled.section`
       .bottom {
         display: flex;
         margin-bottom: 20px;
+
+        @media (max-width: 500px) {
+          flex-wrap: wrap;
+          justify-content: center;
+
+          .noneindex {
+            display: none;
+          }
+        }
       }
 
       .box {
@@ -258,6 +272,10 @@ const SkillContainer = styled.section`
         width: 100%;
         max-width: 170px;
         border: 1px solid #fff;
+
+        @media (max-width: 500px) {
+          margin-top: 10px;
+        }
 
         .title {
           width: 100%;
@@ -291,6 +309,10 @@ const AboutContainer = styled.section`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 965px) {
+      margin: 50px 0 0;
+    }
 
     i {
       margin-right: 15px;
@@ -385,6 +407,11 @@ const ContactContainer = styled.section`
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: 930px) {
+      justify-content: center;
+    }
 
     .left {
       max-width: 550px;

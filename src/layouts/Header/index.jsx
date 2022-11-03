@@ -36,17 +36,17 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/work" alt="Home" title="Home">
-              Work
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/project" alt="Home" title="Home">
+            <NavLink to="/project" alt="Project" title="Project">
               Project
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" alt="Home" title="Home">
+            <NavLink to="/about" alt="About" title="About">
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact" alt="Contact" title="Contact">
               Contact
             </NavLink>
           </li>
@@ -79,17 +79,17 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/work" alt="Home" title="Home">
-              Work
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/project" alt="Home" title="Home">
+            <NavLink to="/project" alt="Project" title="Project">
               Project
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" alt="Home" title="Home">
+            <NavLink to="/about" alt="About" title="About">
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact" alt="Contact" title="Contact">
               Contact
             </NavLink>
           </li>
