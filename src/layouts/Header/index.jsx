@@ -20,7 +20,6 @@ function Header() {
 
   const handleHeader = (e) => {
     window.scroll(0, e);
-    console.log(e);
   };
 
   const handleActiveMenu = () => {

@@ -5,7 +5,7 @@ import ReactTyped from "react-typed";
 import LogoA from "../../assets/A-icon.svg";
 import AboutAnimation from "../../assets/about.json";
 import CodeAnimationMobile from "../../assets/code-home.json";
-import Project1 from "../../assets/project1.jpg";
+import Project1 from "../../assets/project1.png";
 import Project2 from "../../assets/project2.jpg";
 import Project3 from "../../assets/project3.jpg";
 import CodeSkillAnimation from "../../assets/skill.json";
@@ -123,16 +123,22 @@ function Home() {
               <img src={Project1} alt="" srcSet="" />
             </div>
             <div className="tech">
-              <span>HTML</span>
-              <span>CSS</span>
+              <span>React</span>
+              <span>Ant Designer</span>
               <span>Javascript</span>
             </div>
             <div className="description">
-              <h3>ChertNodes</h3>
-              <p>Minecraft servers hosting </p>
+              <h3>LinkedIn Clone</h3>
+              <p>Project linkedIn Clone</p>
 
               <a href="/">Live</a>
-              <a href="/">Github</a>
+              <a
+                href="https://github.com/Wesleyxl/linkedin-clone-website"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
             </div>
           </div>
 
