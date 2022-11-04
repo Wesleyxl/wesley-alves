@@ -41,9 +41,20 @@ const Container = styled.footer`
         text-align: center;
         font-size: 25px;
 
+        a {
+          color: #fff;
+          text-decoration: none;
+          opacity: 0.6;
+
+          :hover {
+            cursor: pointer;
+            font-weight: bold;
+            opacity: 1;
+          }
+        }
+
         i {
           margin: 20px 10px 0;
-          opacity: 0.6;
         }
       }
     }

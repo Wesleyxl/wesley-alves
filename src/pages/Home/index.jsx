@@ -343,20 +343,32 @@ function Home() {
               <p>Message me here</p>
               <ul>
                 <li>
-                  <a href="/">
-                    <i className="fa-brands fa-instagram" />
-                    @Wesleyxll
+                  <a
+                    href="https://api.whatsapp.com/send?phone=5511999727429"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-brands fa-whatsapp" />
+                    (11) 99972-7429
                   </a>
                 </li>
 
                 <li>
-                  <a href="/">
+                  <a
+                    href="https://www.linkedin.com/in/wesley-alves-barreto-1528b9178/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fa-brands fa-linkedin" />
                     Wesley Alves
                   </a>
                 </li>
                 <li>
-                  <a href="/">
+                  <a
+                    href="mailto:contato@wesley-alves.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fa-regular fa-envelope" />
                     contato@wesley-alves.com
                   </a>

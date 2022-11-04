@@ -13,13 +13,31 @@ function Footer() {
               <img src={WLogo} alt="Wesley Alves" />
               esley
             </a>
-            <p>wesley@wesley-alves.com</p>
+            <p>contato@wesley-alves.com</p>
           </div>
           <div className="right">
             <h4>Media</h4>
-            <i className="fa-brands fa-github" />
-            <i className="fa-brands fa-whatsapp" />
-            <i className="fa-brands fa-instagram" />
+            <a
+              href="/https://www.linkedin.com/in/wesley-alves-barreto-1528b9178/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <i className="fa-brands fa-linkedin" />
+            </a>
+            <a
+              href="https://github.com/Wesleyxl"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-github" />
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=5511999727429"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-whatsapp" />
+            </a>
           </div>
         </div>
         <div className="copy">

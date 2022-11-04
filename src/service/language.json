@@ -6,6 +6,7 @@
       "About": "Sobre",
       "Contact": "Contato"
     },
+    "pre_intro": "Olá, eu sou",
     "intro": "Crio sites e aplicativos mobile responsivos, utilizando as tecnologias mais modernas e sofisticadas da atualidade, onde as tecnologias encontram a criatividade.",
     "title_Project": "Projetos",
     "title_Skills": "Habilidades",
@@ -26,12 +27,13 @@
       "About": "About",
       "Contact": "Contact"
     },
+    "pre_intro": "Hi, I'm",
     "intro": "I create responsive websites and mobile apps, using the most modern and sophisticated technologies today, where technologies meet creativity.",
     "title_Project": "Projects",
     "title_Skills": "Skills",
     "title_About": "About Me",
     "about": {
-      "intro": "Hello, I'm, Wesley",
+      "intro": "Hi, I'm, Wesley",
       "part_1": "I'm a sel-taught developer. I can develop responsive websites and application mobile from scratch, and raise them into modern user-friendly web experience.",
       "part_2": "Transform my creativity and knowledge into a website has been my passion for over year, I have been helping various clients stablish their presence online. I always strive to learn about the newest technologies and Frameworks."
     },

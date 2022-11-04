@@ -83,7 +83,7 @@ const DesktopMenu = styled.div`
         }
       }
 
-      /* .active {
+      .active {
         font-weight: bold;
         :before {
           transform: scale3d(1, 1, 1);
@@ -91,7 +91,7 @@ const DesktopMenu = styled.div`
         :after {
           transform: scale3d(1, 1, 1);
         }
-      } */
+      }
 
       /* .inactive {
         font-weight: normal;
